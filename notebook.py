@@ -7,7 +7,7 @@ class Notebook:
         self.notebook[next(self.__note_id)] = {'last_name': last_name,
                                                'number': number,
                                                'birth_date': birth_date}
-
+    @staticmethod
     def __id_generator(self):
         i = 1
         while True:
