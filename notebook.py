@@ -8,7 +8,7 @@ class Notebook:
                                                'number': number,
                                                'birth_date': birth_date}
     @staticmethod
-    def __id_generator(self):
+    def __id_generator():
         i = 1
         while True:
             yield i
